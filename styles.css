@@ -101,6 +101,11 @@ p {
     color:#f4623a;
     font-size: 2.5rem;
 }
+@media (max-width: 500px) {
+    .writing span {
+        font-size: 1.8rem;
+    }
+}
 .cursor {
     display: inline-block;
     width: 2px;
@@ -1346,8 +1351,13 @@ pre code {
   .col-lg-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
+    text-decoration: none;
   }
 
+  .col-lg-4:hover {
+    color: orange;
+
+  }
   .col-lg-5 {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
@@ -12625,7 +12635,4 @@ button.bg-dark:focus {
     
     .text-white-75 {
       color: rgba(255, 255, 255, 0.75);
-    }
-
-  
-  
+}
